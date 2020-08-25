@@ -140,7 +140,8 @@ namespace TestTreeView
         {
             try
             {
-                TreeNodeUtils.SetParentChildNodesCheckedStatus(e.Node);
+                //TreeNodeUtils.SetParentChildNodesCheckedStatus(e.Node);
+                e.Node.SetParentChildNodesCheckedStatus();
             }
             catch (Exception ex)
             {
