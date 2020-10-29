@@ -30,7 +30,7 @@
         {
             this.button_Exit = new System.Windows.Forms.Button();
             this.button_FillTreeView = new System.Windows.Forms.Button();
-            this.treeView_Main = new System.Windows.Forms.TreeView();
+            this.treeView_Main = new TestTreeView.MyTreeView();
             this.button_ExpandAll = new System.Windows.Forms.Button();
             this.button_CollapseAll = new System.Windows.Forms.Button();
             this.button_CheckedAll = new System.Windows.Forms.Button();
@@ -40,9 +40,9 @@
             // button_Exit
             // 
             this.button_Exit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_Exit.Location = new System.Drawing.Point(382, 269);
+            this.button_Exit.Location = new System.Drawing.Point(382, 291);
             this.button_Exit.Name = "button_Exit";
-            this.button_Exit.Size = new System.Drawing.Size(90, 30);
+            this.button_Exit.Size = new System.Drawing.Size(90, 33);
             this.button_Exit.TabIndex = 0;
             this.button_Exit.Text = "Exit";
             this.button_Exit.UseVisualStyleBackColor = true;
@@ -51,9 +51,9 @@
             // button_FillTreeView
             // 
             this.button_FillTreeView.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button_FillTreeView.Location = new System.Drawing.Point(12, 233);
+            this.button_FillTreeView.Location = new System.Drawing.Point(12, 252);
             this.button_FillTreeView.Name = "button_FillTreeView";
-            this.button_FillTreeView.Size = new System.Drawing.Size(90, 30);
+            this.button_FillTreeView.Size = new System.Drawing.Size(90, 33);
             this.button_FillTreeView.TabIndex = 1;
             this.button_FillTreeView.Text = "Fill TreeView";
             this.button_FillTreeView.UseVisualStyleBackColor = true;
@@ -65,18 +65,18 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.treeView_Main.CheckBoxes = true;
-            this.treeView_Main.Location = new System.Drawing.Point(12, 12);
+            this.treeView_Main.Location = new System.Drawing.Point(12, 13);
             this.treeView_Main.Name = "treeView_Main";
-            this.treeView_Main.Size = new System.Drawing.Size(460, 215);
+            this.treeView_Main.Size = new System.Drawing.Size(460, 233);
             this.treeView_Main.TabIndex = 2;
             this.treeView_Main.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.treeView_Main_AfterCheck);
             // 
             // button_ExpandAll
             // 
             this.button_ExpandAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button_ExpandAll.Location = new System.Drawing.Point(12, 269);
+            this.button_ExpandAll.Location = new System.Drawing.Point(12, 291);
             this.button_ExpandAll.Name = "button_ExpandAll";
-            this.button_ExpandAll.Size = new System.Drawing.Size(90, 30);
+            this.button_ExpandAll.Size = new System.Drawing.Size(90, 33);
             this.button_ExpandAll.TabIndex = 3;
             this.button_ExpandAll.Text = "Expand All";
             this.button_ExpandAll.UseVisualStyleBackColor = true;
@@ -85,9 +85,9 @@
             // button_CollapseAll
             // 
             this.button_CollapseAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button_CollapseAll.Location = new System.Drawing.Point(108, 269);
+            this.button_CollapseAll.Location = new System.Drawing.Point(108, 291);
             this.button_CollapseAll.Name = "button_CollapseAll";
-            this.button_CollapseAll.Size = new System.Drawing.Size(90, 30);
+            this.button_CollapseAll.Size = new System.Drawing.Size(90, 33);
             this.button_CollapseAll.TabIndex = 4;
             this.button_CollapseAll.Text = "Collapse All";
             this.button_CollapseAll.UseVisualStyleBackColor = true;
@@ -96,9 +96,9 @@
             // button_CheckedAll
             // 
             this.button_CheckedAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button_CheckedAll.Location = new System.Drawing.Point(108, 233);
+            this.button_CheckedAll.Location = new System.Drawing.Point(108, 252);
             this.button_CheckedAll.Name = "button_CheckedAll";
-            this.button_CheckedAll.Size = new System.Drawing.Size(90, 30);
+            this.button_CheckedAll.Size = new System.Drawing.Size(90, 33);
             this.button_CheckedAll.TabIndex = 5;
             this.button_CheckedAll.Text = "Checked All";
             this.button_CheckedAll.UseVisualStyleBackColor = true;
@@ -107,9 +107,9 @@
             // button_UncheckedAll
             // 
             this.button_UncheckedAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button_UncheckedAll.Location = new System.Drawing.Point(204, 233);
+            this.button_UncheckedAll.Location = new System.Drawing.Point(204, 252);
             this.button_UncheckedAll.Name = "button_UncheckedAll";
-            this.button_UncheckedAll.Size = new System.Drawing.Size(90, 30);
+            this.button_UncheckedAll.Size = new System.Drawing.Size(90, 33);
             this.button_UncheckedAll.TabIndex = 6;
             this.button_UncheckedAll.Text = "Unchecked All";
             this.button_UncheckedAll.UseVisualStyleBackColor = true;
@@ -117,9 +117,9 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 311);
+            this.ClientSize = new System.Drawing.Size(484, 337);
             this.Controls.Add(this.button_UncheckedAll);
             this.Controls.Add(this.button_CheckedAll);
             this.Controls.Add(this.button_CollapseAll);
@@ -127,7 +127,7 @@
             this.Controls.Add(this.treeView_Main);
             this.Controls.Add(this.button_FillTreeView);
             this.Controls.Add(this.button_Exit);
-            this.MinimumSize = new System.Drawing.Size(500, 350);
+            this.MinimumSize = new System.Drawing.Size(500, 376);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Test TreeView";
@@ -140,7 +140,7 @@
 
         private System.Windows.Forms.Button button_Exit;
         private System.Windows.Forms.Button button_FillTreeView;
-        private System.Windows.Forms.TreeView treeView_Main;
+        private TestTreeView.MyTreeView treeView_Main;
         private System.Windows.Forms.Button button_ExpandAll;
         private System.Windows.Forms.Button button_CollapseAll;
         private System.Windows.Forms.Button button_CheckedAll;

@@ -17,3 +17,4 @@ D:\RD\Program Development\!Personal development\TestTreeView\TestTreeView\obj\De
 D:\RD\Program Development\!Personal development\TestTreeView\TestTreeView\obj\Debug\TestTreeView.csproj.CoreCompileInputs.cache
 D:\RD\Program Development\!Personal development\TestTreeView\TestTreeView\obj\Debug\TestTreeView.exe
 D:\RD\Program Development\!Personal development\TestTreeView\TestTreeView\obj\Debug\TestTreeView.pdb
+D:\RD\Program Development\!Personal development\TestTreeView\TestTreeView\obj\Debug\TestTreeView.csprojAssemblyReference.cache
